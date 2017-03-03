@@ -1,7 +1,5 @@
 package edu.jalc.shape;
 
-import java.lang.Math.pow;
-
 public class Rectangle extends TwoDimensionalShape{
 
   private double width;
