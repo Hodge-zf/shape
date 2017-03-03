@@ -23,6 +23,6 @@ public class Rectangle extends TwoDimensionalShape{
 
   public String toString()
   {
-    return "The rectangle has an perimeter of " + getPerimeter() + " an area of " + getArea();
+    return "The rectangle has a perimeter of " + getPerimeter() + "and an area of " + getArea();
   }
 }
