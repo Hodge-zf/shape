@@ -5,6 +5,12 @@ public class Rectangle extends TwoDimensionalShape{
   private double width;
   private double height;
 
+  private Rectangle()
+  {
+    this.width = 0;
+    this.height = 0;
+  }
+
   public Rectangle(double width, double height)
   {
     this.width = width;
@@ -13,12 +19,12 @@ public class Rectangle extends TwoDimensionalShape{
 
   public double getPerimeter()
   {
-    return (width+width) + (height+height);
+    return this.width+this.width + this.height+this.height;
   }
 
   public double getArea()
   {
-    return height*width;
+    return this.height*this.width;
   }
 
   public String toString()
