@@ -21,8 +21,7 @@ public class RightTriangle extends TwoDimensionalShape{
 
   public double getPerimeter()
   {
-    double hypotenuse = Math.sqrt( Math.pow(this.width, 2) + Math.pow(this.height, 2) );
-    return hypotenuse + this.width + this.height;
+    return Math.hypot(this.width,this.height) + this.width + this.height;
   }
 
   public double getArea()
