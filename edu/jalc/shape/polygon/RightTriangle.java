@@ -1,6 +1,7 @@
-package edu.jalc.shape;
+package edu.jalc.shape.polygon;
 
 import java.lang.Math.*;
+import edu.jalc.shape.TwoDimensionalShape;
 
 public class RightTriangle extends TwoDimensionalShape{
 

@@ -1,4 +1,5 @@
-package edu.jalc.shape;
+package edu.jalc.shape.polygon;
+import edu.jalc.shape.TwoDimensionalShape;
 
 public class Square extends Rectangle{
 

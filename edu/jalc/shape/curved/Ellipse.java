@@ -1,6 +1,7 @@
-package edu.jalc.shape;
+package edu.jalc.shape.curved;
 
-import java.lang.Math*;
+import java.lang.Math.*;
+import edu.jalc.shape.TwoDimensionalShape;
 
 public class Ellipse extends TwoDimensionalShape{
 

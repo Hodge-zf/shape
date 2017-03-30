@@ -1,4 +1,6 @@
-package edu.jalc.shape;
+package edu.jalc.shape.polygon;
+
+import edu.jalc.shape.TwoDimensionalShape;
 
 public class Rectangle extends TwoDimensionalShape{
 
@@ -17,12 +19,12 @@ public class Rectangle extends TwoDimensionalShape{
     this.height = height;
   }
 
-  public double getPerimeter()
+  public final double getPerimeter()
   {
     return this.width+this.width + this.height+this.height;
   }
 
-  public double getArea()
+  public final double getArea()
   {
     return this.height*this.width;
   }

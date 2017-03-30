@@ -2,7 +2,7 @@ package edu.jalc.shape;
 
 abstract public class TwoDimensionalShape{
 
-    abstract double getPerimeter();
-    abstract double getArea();
+    abstract public double getPerimeter();
+    abstract public double getArea();
     abstract public String toString();
 }

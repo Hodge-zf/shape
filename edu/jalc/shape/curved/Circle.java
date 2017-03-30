@@ -1,5 +1,5 @@
-package edu.jalc.shape;
-import java.lang.Math;
+package edu.jalc.shape.curved;
+import java.lang.Math.*;
 
 public class Circle extends Ellipse{
 
