@@ -3,6 +3,8 @@ import java.lang.Math.*;
 
 public class Circle extends Ellipse{
 
+  private final double radius;
+  
   private Circle()
   {
     super(0.0,0.0);
@@ -13,6 +15,11 @@ public class Circle extends Ellipse{
   {
     super(radius, radius);
     this.radius=radius;
+  }
+
+  public double getPerimeter()
+  {
+    return 2*Math.PI*radius;
   }
 
   public String toString()

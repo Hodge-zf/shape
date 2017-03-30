@@ -21,7 +21,7 @@ public class Ellipse extends TwoDimensionalShape{
 
   public double getPerimeter()
   {
-    return 2*Math.PI*Math.sqrt((Math.Pow(minorAxis,2) + Math.Pow(majorAxis,2))/2);
+    return 2*Math.PI*Math.sqrt((Math.pow(minorAxis,2) + Math.pow(majorAxis,2))/2);
   }
 
   public double getArea()
