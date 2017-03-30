@@ -1,6 +1,7 @@
-##Randy Hodge
-#JALC Spring 2017
-#Inheritance lab - Two-Dimensional Shapes
+## Randy Hodge
+# JALC Spring 2017
+# Inheritance lab - Two-Dimensional Shapes
+
 **Goals**
 * Write 5 instantiable classes: `Circle`, `Ellipse`, `Rectangle`, `Square`, `RightTriangle`
 * Each will inherit from a proper chain of parent classes until you reach the Super, `TwoDimensionalShape`

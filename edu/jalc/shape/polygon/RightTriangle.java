@@ -14,7 +14,7 @@ public class RightTriangle extends TwoDimensionalShape{
     this.height = 0;
   }
 
-  private RightTriangle(double width, double height)
+  public RightTriangle(double width, double height)
   {
     this.width = width;
     this.height = height;
