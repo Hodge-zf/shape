@@ -13,8 +13,5 @@ abstract public class EdgedShape extends TwoDimensionalShape{
     this.height = height;
   }
 
-  public double getPerimeter()
-  {
-    return this.width+this.width + this.height+this.height;
-  }
+  abstract public double getPerimeter();
 }
