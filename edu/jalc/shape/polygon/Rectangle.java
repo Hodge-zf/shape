@@ -2,26 +2,19 @@ package edu.jalc.shape.polygon;
 
 import edu.jalc.shape.TwoDimensionalShape;
 
-public class Rectangle extends TwoDimensionalShape{
+public class Rectangle extends EdgedShape{
 
   private double width;
   private double height;
 
   private Rectangle()
   {
-    this.width = 0;
-    this.height = 0;
+    super(0,0);
   }
 
   public Rectangle(double width, double height)
   {
-    this.width = width;
-    this.height = height;
-  }
-
-  public final double getPerimeter()
-  {
-    return this.width+this.width + this.height+this.height;
+    super(width,height);
   }
 
   public final double getArea()

@@ -1,7 +1,7 @@
 package edu.jalc.shape.polygon;
 import edu.jalc.shape.TwoDimensionalShape;
 
-public class Square extends Rectangle{
+public final class Square extends Rectangle{
 
   private double side;
 
