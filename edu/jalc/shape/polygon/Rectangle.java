@@ -17,7 +17,7 @@ public class Rectangle extends EdgedShape{
     super(width,height);
   }
 
-  public double getPerimeter()
+  public final double getPerimeter()
   {
     return this.height*2+this.width*2;
   }

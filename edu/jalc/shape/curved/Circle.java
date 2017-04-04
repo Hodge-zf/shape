@@ -3,27 +3,25 @@ import java.lang.Math.*;
 
 public class Circle extends Ellipse{
 
-  private final double radius;
-  
+  private double diameter;
+
   private Circle()
   {
     super(0.0,0.0);
-    this.radius=0;
   }
 
-  public Circle(double radius)
+  public Circle(double diameter)
   {
-    super(radius, radius);
-    this.radius=radius;
+    super(diameter,diameter);
   }
 
-  public double getPerimeter()
+  public final double getCircumference()
   {
-    return 2*Math.PI*radius;
+    return Math.PI*diameter;
   }
 
   public String toString()
   {
-    return "The circle has a perimeter of " + getPerimeter() + "and an area of " + getArea();
+    return "The circle has a circumference of " + getCircumference() + "and an area of " + getArea();
   }
 }

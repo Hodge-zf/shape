@@ -18,7 +18,7 @@ public final class RightTriangle extends Triangle{
     super(width,height);
   }
 
-  public double getPerimeter()
+  public final double getPerimeter()
   {
     return Math.hypot(this.width,this.height) + this.width + this.height;
   }
